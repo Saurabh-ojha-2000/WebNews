@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  text-align: center;
+  width: 20rem;
+}
+
+.card-img-top {
+  height: 200px;
+}
+.main-content-signup {
+  background-color: rgb(193, 193, 234) !important;
+  /* min-height: 1903px; */
+}
+.main-content-login {
+  background-color: rgb(193, 193, 234) !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+  position: relative;
+  top: 20px;
+}
+.col-md-8.col-lg-6 {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  padding: 50px;
+}
+.col-md-8.col-lg-7 {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  padding: 85px;
+}
+footer {
+  background-color: black;
+  padding: 7px;
+  color: white !important;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+}
+
+.font-weight-bold {
+  text-decoration: none;
+}
+
+.news_letter_section {
+  position: relative;
+  background-color: gainsboro;
+  /* background-image: url(assets/img/newsletter1.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}
+
+.newsletter-field {
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+  width: 70%;
+}
+
+.navbar-logout {
+  display: flex;
+  float: right;
+  position: absolute;
+  right: 0px;
+}

@@ -1,0 +1,147 @@
+.card-stats-main {
+}
+
+.card-stats-col-last {
+  border-right: 2px solid rgb(134, 200, 220);
+  margin-right: 10px;
+}
+.card-stats-row-heading {
+  color: black;
+  font-weight: 800;
+}
+.card-stats-row-number {
+  font-size: 46px;
+}
+.card-stats-pending {
+  color: red;
+}
+.card-stats-date {
+  color: green;
+  font-weight: 500;
+}
+.card-body {
+  background-color: rgb(238, 233, 233);
+}
+.table-td-action {
+  color: white;
+  background-color: rgb(40, 40, 247);
+  padding: 1px;
+}
+.table-td-action:hover {
+  color: white;
+  background-color: rgb(72, 225, 118);
+}
+.table-td-contact {
+  background-color: #7de7a2;
+  color: rgb(23, 21, 21);
+}
+.table-td-contact:hover {
+  background-color: #049436;
+  color: white;
+}
+.table-td-purchase-time {
+  background-color: #3ec4d5;
+  color: rgb(23, 21, 21);
+}
+.table-td-purchase-time:hover {
+  background-color: #514bf5;
+  color: white;
+}
+.table-td-purchase-fa-history {
+  background-color: #ffc107;
+}
+.table-td-purchase-fa-history:hover {
+  background-color: #ffc107;
+}
+.table-td-createby {
+  background-color: #feeaec;
+  color: #f22e3e;
+  padding: 1px;
+}
+.table-td-createby:hover {
+  background-color: #feeaec;
+  color: #f22e3e;
+}
+.table-td-shipping-status {
+  background-color: #cddbf7;
+  color: #044bd9;
+  padding: 2px;
+}
+.table-td-shipping-status:hover {
+  background-color: #cddbf7;
+  color: #044bd9;
+}
+td {
+  color: black;
+  padding: 10px !important;
+}
+.table-tr-th-border {
+  border: 1px solid rgb(222, 218, 218) !important;
+}
+.table-thead-main-body {
+  background-color: rgb(218, 201, 201);
+}
+.table-main-heading {
+  background-color: rgb(183, 180, 180);
+}
+.table-td-status {
+  background-color: rgb(187, 238, 187);
+  color: green;
+}
+.table-tr-td-action {
+  background-color: #ffefcf;
+  color: #ffad0d;
+}
+.form-control-table-inner-button {
+  background-color: rgb(60, 60, 226);
+  color: white;
+}
+button.form-control-outer-button.btn.btn-secondary {
+  margin-top: 30px;
+}
+.form-control-reminder-button{
+  background-color: rgb(60, 60, 226);
+  color: white;
+}
+.form-control-reminder-button:hover{
+  background-color: rgb(104, 228, 141);
+  color: white;
+}
+.table-tr-td-doctor-comments{
+  background-color:#cddbf7;
+  color: #044bd9;
+}
+
+.table-tr-td-doctor-comments:hover{
+  background-color:  rgb(104, 228, 141);
+  color: white;
+}
+.fa-comments-o{
+  color: red;
+  background-color: var(--default-light);
+}
+.sidebar-dashboard {
+  text-align: center;
+  margin-top: 24px;
+  background-color: beige;
+}
+thead.table-thead-main-body {
+  position: sticky;
+  left: 0;
+  top: -1px;
+  z-index: 1;
+}
+td.table-tr-th-border {
+  white-space: initial;
+}
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-height: 800PX;
+}
+.form-control-table-inner-button-leads-tfn{
+margin-top: 30px;
+color:white;
+}

@@ -1,0 +1,36 @@
+.icons-main-section{
+    background-color: white;
+    color: black;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.icons-main-section-outer{
+    justify-content: center;
+   
+}
+.icons-main-section-input-field{
+    margin-left: 10px;
+    padding-right:200px ;
+    border-radius: 20px;
+    height: 50px;
+    border: 2px solid rgb(134, 134, 236);
+}
+.required-marker {
+    color: red;
+  }
+.icons-main-section-inner-button{
+background-color: blue;
+color: white;
+width: 10%;
+font-size:x-large;
+  }
+  .icons-main-section-inner-button:hover{
+    background-color: rgb(108, 223, 108);
+    color: white;
+    width: 10%;
+      }
+  .icons-main-section-outer-button{
+    justify-content: center;
+    display: flex;
+  }
